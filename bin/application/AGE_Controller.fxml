@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="127.0" layoutY="60.0" prefHeight="56.0" prefWidth="140.0" text="Age">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="131.0" prefHeight="46.0" prefWidth="129.0" text="Date of Birth">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="138.0" layoutY="141.0">
+         <opaqueInsets>
+            <Insets bottom="20.0" left="10.0" right="8.0" top="16.0" />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </DatePicker>
+      <Label layoutX="37.0" layoutY="196.0" prefHeight="38.0" prefWidth="107.0" text="Today">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="199.0" prefHeight="38.0" prefWidth="166.0" style="-fx-background-color: orange;" text="Nov 25,2021" />
+      <TextArea layoutX="60.0" layoutY="281.0" prefHeight="90.0" prefWidth="152.0" text="Age&#10;11 years">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="213.0" layoutY="280.0" prefHeight="90.0" prefWidth="158.0" text="Next Birthday&#10;Tuesday">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="55.0" layoutY="370.0" prefHeight="151.0" prefWidth="316.0" text="Summary&#10;Years       Months         Weeks&#10;  11          135                588   &#10;&#10;Days          Hours           Minutes&#10;4119          98856           5931360">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="MYlabeltitle" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InvestementCalculatorController">
+   <children>
+      <TextArea layoutX="96.0" layoutY="32.0" prefHeight="36.0" prefWidth="239.0" text="Investment Calculator">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <RadioButton layoutX="96.0" layoutY="116.0" mnemonicParsing="false" text="one-time">
+         <toggleGroup>
+            <ToggleGroup fx:id="investment1" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="224.0" layoutY="116.0" mnemonicParsing="false" text="Recuring" toggleGroup="$investment1" />
+      <TextField layoutX="82.0" layoutY="150.0" text="Total Investment" />
+      <TextField fx:id="myTextFieldinvestment" layoutX="82.0" layoutY="183.0" prefHeight="26.0" prefWidth="278.0" />
+      <TextField layoutX="82.0" layoutY="219.0" text="Interest(Percentage)" />
+      <TextField fx:id="myTextFieldINTERST" layoutX="82.0" layoutY="254.0" prefHeight="26.0" prefWidth="278.0" />
+      <Button layoutX="79.0" layoutY="312.0" mnemonicParsing="false" onAction="#buttonACclick2" prefHeight="26.0" prefWidth="40.0" style="-fx-background-color: orange;" text="AC" />
+      <Button layoutX="150.0" layoutY="312.0" mnemonicParsing="false" onAction="#buttonREMOVclick2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: orange;" text="|X|" />
+      <Button layoutX="216.0" layoutY="312.0" mnemonicParsing="false" onAction="#buttonMODclick2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: orange;" text="\%" />
+      <Button layoutX="284.0" layoutY="312.0" mnemonicParsing="false" onAction="#buttonDIVclick2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: orange;" text="/" />
+      <Button layoutX="79.0" layoutY="360.0" mnemonicParsing="false" onAction="#button7click2" prefHeight="26.0" prefWidth="40.0" text="7" />
+      <Button layoutX="150.0" layoutY="360.0" mnemonicParsing="false" onAction="#button8click2" prefHeight="26.0" prefWidth="34.0" text="8" />
+      <Button layoutX="216.0" layoutY="360.0" mnemonicParsing="false" onAction="#button9click2" prefHeight="26.0" prefWidth="34.0" text="9" />
+      <Button layoutX="284.0" layoutY="360.0" mnemonicParsing="false" onAction="#buttonMULTIclick2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: orange;" text="X" />
+      <Button layoutX="79.0" layoutY="416.0" mnemonicParsing="false" onAction="#button4click2" prefHeight="26.0" prefWidth="40.0" text="4" />
+      <Button layoutX="150.0" layoutY="416.0" mnemonicParsing="false" onAction="#button5click2" prefHeight="26.0" prefWidth="34.0" text="5" />
+      <Button layoutX="221.0" layoutY="416.0" mnemonicParsing="false" onAction="#button6click2" prefHeight="26.0" prefWidth="34.0" text="6" />
+      <Button layoutX="284.0" layoutY="416.0" mnemonicParsing="false" onAction="#buttonMINUSclick2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: orange;" text="-" />
+      <Button layoutX="79.0" layoutY="455.0" mnemonicParsing="false" onAction="#button1click2" prefHeight="26.0" prefWidth="40.0" text="1" />
+      <Button layoutX="150.0" layoutY="455.0" mnemonicParsing="false" onAction="#button2click2" prefHeight="26.0" prefWidth="34.0" text="2" />
+      <Button layoutX="219.0" layoutY="455.0" mnemonicParsing="false" onAction="#button3click2" prefHeight="26.0" prefWidth="34.0" text="3" />
+      <Button layoutX="284.0" layoutY="455.0" mnemonicParsing="false" onAction="#buttonPLUSclick2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: orange;" text="+" />
+      <Button layoutX="147.0" layoutY="494.0" mnemonicParsing="false" onAction="#buttonZeroclick2" prefHeight="26.0" prefWidth="40.0" text="0" />
+      <Button layoutX="218.0" layoutY="495.0" mnemonicParsing="false" onAction="#buttonDOTclick2" prefHeight="26.0" prefWidth="34.0" text="." />
+      <Button layoutX="281.0" layoutY="496.0" mnemonicParsing="false" onAction="#buttonEQUALclick2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: orange;" text="=" />
+   </children>
+</AnchorPane>

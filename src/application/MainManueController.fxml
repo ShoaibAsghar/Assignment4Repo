@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="454.0" style="-fx-background-color: turquoise;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainManueController">
+   <children>
+      <Button layoutX="46.0" layoutY="34.0" mnemonicParsing="false" onAction="#ButtonBMIclick" prefHeight="102.0" prefWidth="102.0" style="-fx-background-color: orange;" text="BMI">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="34.0" mnemonicParsing="false" onAction="#ButtonAGEclick" prefHeight="102.0" prefWidth="102.0" style="-fx-background-color: red;" text="AGE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="45.0" layoutY="200.0" mnemonicParsing="false" onAction="#ButtonDiscountClick" prefHeight="102.0" prefWidth="102.0" style="-fx-background-color: navy vlue;" text="Discount">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="219.0" layoutY="199.0" mnemonicParsing="false" onAction="#ButtonSimpleCalculatorClick" prefHeight="102.0" prefWidth="170.0" style="-fx-background-color: teal;" text="Simple calculator">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="46.0" layoutY="370.0" mnemonicParsing="false" onAction="#ButtonCurrencyClick" prefHeight="88.0" prefWidth="117.0" style="-fx-background-color: purple;" text="Currency" textFill="#000000f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="229.0" layoutY="369.0" mnemonicParsing="false" onAction="#ButtonInvestmentClick" prefHeight="88.0" prefWidth="150.0" style="-fx-background-color: maroon;" text="Investment" textFill="#000000f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

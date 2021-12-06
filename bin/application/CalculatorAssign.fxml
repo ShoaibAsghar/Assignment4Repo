@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SimpleCalculatorController">
+   <children>
+      <Label fx:id="myLabel1" layoutX="158.0" layoutY="31.0" prefHeight="30.0" prefWidth="120.0" text="Calculator">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="mylabel2" alignment="CENTER" contentDisplay="CENTER" layoutX="175.0" layoutY="135.0" prefHeight="26.0" prefWidth="114.0" style="-fx-background-color: orange;" text="Screen">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField fx:id="myTextField" layoutX="117.0" layoutY="170.0" prefHeight="26.0" prefWidth="230.0" />
+      <Button layoutX="180.0" layoutY="404.0" mnemonicParsing="false" onAction="#buttonzeroclick" prefHeight="26.0" prefWidth="38.0" text="0" />
+      <Button layoutX="123.0" layoutY="368.0" mnemonicParsing="false" onAction="#button1click" prefHeight="26.0" prefWidth="38.0" text="1" />
+      <Button layoutX="180.0" layoutY="368.0" mnemonicParsing="false" onAction="#button2click" prefHeight="26.0" prefWidth="38.0" text="2" />
+      <Button layoutX="245.0" layoutY="368.0" mnemonicParsing="false" onAction="#button3click" prefHeight="26.0" prefWidth="38.0" text="3" />
+      <Button layoutX="123.0" layoutY="324.0" mnemonicParsing="false" onAction="#button4click" prefHeight="26.0" prefWidth="38.0" text="4" />
+      <Button layoutX="180.0" layoutY="324.0" mnemonicParsing="false" onAction="#button5click" prefHeight="26.0" prefWidth="38.0" text="5" />
+      <Button layoutX="245.0" layoutY="325.0" mnemonicParsing="false" onAction="#button6click" prefHeight="26.0" prefWidth="38.0" text="6" />
+      <Button layoutX="245.0" layoutY="403.0" mnemonicParsing="false" onAction="#buttonDOTclick" prefHeight="27.0" prefWidth="38.0" style="-fx-background-color: orange;" text=".">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="124.0" layoutY="286.0" mnemonicParsing="false" onAction="#button7click" prefHeight="26.0" prefWidth="38.0" text="7" />
+      <Button layoutX="182.0" layoutY="286.0" mnemonicParsing="false" onAction="#button8click" prefHeight="26.0" prefWidth="38.0" text="8" />
+      <Button layoutX="246.0" layoutY="286.0" mnemonicParsing="false" onAction="#button9click" prefHeight="26.0" prefWidth="38.0" text="9" />
+      <Button layoutX="124.0" layoutY="247.0" mnemonicParsing="false" onAction="#buttonACclick" prefHeight="26.0" prefWidth="38.0" style="-fx-background-color: orange;" text="AC" />
+      <Button layoutX="183.0" layoutY="248.0" mnemonicParsing="false" onAction="#buttonREMOVEclick" prefHeight="26.0" prefWidth="38.0" style="-fx-background-color: orange;" text="&lt;[x]" />
+      <Button layoutX="247.0" layoutY="248.0" mnemonicParsing="false" onAction="#buttonMODclick" prefHeight="26.0" prefWidth="38.0" style="-fx-background-color: orange;" text="\%" />
+      <Button layoutX="304.0" layoutY="248.0" mnemonicParsing="false" onAction="#buttonDIVclick" prefHeight="26.0" prefWidth="38.0" style="-fx-background-color: orange;" text="/" />
+      <Button layoutX="305.0" layoutY="286.0" mnemonicParsing="false" onAction="#buttonMULTIclick" prefHeight="26.0" prefWidth="38.0" style="-fx-background-color: orange;" text="X" />
+      <Button layoutX="307.0" layoutY="326.0" mnemonicParsing="false" onAction="#buttonMINUSclick" prefHeight="2.0" prefWidth="38.0" style="-fx-background-color: orange;" text="-" />
+      <Button layoutX="305.0" layoutY="369.0" mnemonicParsing="false" onAction="#buttonPLUSclick" prefHeight="26.0" prefWidth="38.0" style="-fx-background-color: orange;" text="+" />
+      <Button layoutX="305.0" layoutY="404.0" mnemonicParsing="false" onAction="#buttonEquaLclick" prefHeight="26.0" prefWidth="38.0" style="-fx-background-color: orange;" text="=" />
+      <Button layoutX="116.0" layoutY="404.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="46.0" style="-fx-background-color: orange;" text="|_|">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </Button>
+   </children>
+</AnchorPane>
